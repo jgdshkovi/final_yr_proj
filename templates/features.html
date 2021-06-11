@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Txc Cmnt Clsfr</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Toxic Comment Classifier &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link active" href="">Features</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <br><br>
+        <h1 class="cover-heading">Features & Usage</h1>
+        <br>
+
+        <li><p class="lead">The Website is responsive & one can select from dr0p-d0wn either: </p></li>
+          <p>- to check the Classifier with a Sample <i>toxic</i> text to find its toxicity or </p>
+          <p>- to enter Twitter UserName to get Toxic Tweets from the timeline </p>
+
+        <li><p class="lead">For the sample text user tests, we simply return the Toxicity score  </p></li>
+
+        <li><p class="lead">But for getting Toxic tweets using UserName (if any), one can select a threshold using the slider & only the tweets above the toxicity threshold score are returned</p></li>
+
+
+        <br><br>
+        <h1 class="cover-heading">Scope</h1>
+        <br>
+        <li><p class="lead">We were only able to find the toxicty for the tweets, as twitter provides limited access to them using Tweepy API. But this can be further improved if we were to scrape the replies for the tweets (using tools like selenium), as most toxic stuff is found discussions, and working on them.</p></li>
+        <li><p class="lead">Also, we can easily get data from various Social Media Platforms(SMPS), using APIs or some scraping tools & integrate our Toxic Comment Idenfifier onto them.</p></li>
+        <li><p class="lead">The Source Code is available on GitHub, so anyone of 'U' can make a use use of it or contribute to the project. </p></li>
+        <p class="lead">Happy Hacking..</p>
+
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Prototype of Final Yr. Project, for <a href="http://sietk.org">SIETK</a></p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+    <script src="../static/popper.min.js"></script>
+    <script src="../static/bootstrap.min.js"></script>
+  </body>
+</html>
