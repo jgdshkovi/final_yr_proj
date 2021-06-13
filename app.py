@@ -34,6 +34,7 @@ api = tweepy.API(auth)
 
 app = Flask(__name__)
 #run_with_ngrok(app)
+mdl=None	
 
 ######################################
 
@@ -140,8 +141,8 @@ def bert_predict(model, test_dataloader):
 MAX_LEN = 300
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=True)
 
-mdl = BertClassifier()
-mdl = torch.load('bert_mdl.pth',map_location=torch.device('cpu'))
+
+
 
 # #=======================================================# #
 
@@ -235,5 +236,8 @@ def output():
 		return render_template('tst_out.html', data=[out])
 
 
-app.run()
+if __name__=='__main__':
+	mdl = BertClassifier()
+    mdl = torch.load('bert_mdl.pth',map_location=torch.device('cpu'))
+	app.run(host="0.0.0.0", port=5000, debug=True)
 
