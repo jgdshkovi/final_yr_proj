@@ -7,9 +7,9 @@
 #you get these keys once you signup for twitter dev account 
 #to get access to their API using these keys :)
 
-ckey = 'lTDEXAARTWU2xpI7gAc5M48qR'
-csecret = '58OBYz9DSvp8FKxb4e1yEWuCeJYcc0zMUo01e7NvWSx2JzaAGe'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAEVrLAEAAAAAEaqIKtJYFxIWIhQOGnAiLpCGZU8%3DU9J4Ajc8O7T0ibGnivAH3liptrxnrceR9obuz4x6d2bfuHsrsH'
+ckey = 'VZjsa1IlS0ug4oe8pkt3jtZSy'
+csecret = 'NOV8N5OE9XqMNk5KBYNMRkwzXkrhrsREfAjxvDNMuyRYTtMDAW'
+bearer_token = 'AAAAAAAAAAAAAAAAAAAAAEVrLAEAAAAAuYuZM0iI1ZJVaVwYfLE3TwYXazM%3DxySmhcKrCbNcwFbh8vOFbOebMk5HyXkijxIYWitTNUaBMIXfTu'
 
-access_token = '849660043985379328-eHGpzocKI864wyu2dXMcXdmjRNo3VIi'
-access_token_secret = 'pN3kaXnMQ9d5ZCKzEJXg2Dzo8XbKawWwk6li3JXB40Dv9'
+access_token = '849660043985379328-JsuHtdsv9bfdLJAGtNw7epi0JFl7FxP'
+access_token_secret = 'qY3FSqgv31j3Pu6aA9YRPfDkKwU2b3VbWTl2dLC0z5a8d'
